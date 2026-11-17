@@ -1,0 +1,129 @@
+{
+  "started": "2026-11-17T01:25:16.629Z",
+  "url": "http://127.0.0.1:8024",
+  "browser": "157.0.4341.60",
+  "cases": [
+    {
+      "name": "extension loads from native manifest and lifecycle hook",
+      "passed": true,
+      "durationMs": 12
+    },
+    {
+      "name": "a late native picker cannot edit the persona selected after its template request",
+      "passed": true,
+      "durationMs": 743
+    },
+    {
+      "name": "native persona popup binds three books with one native primary",
+      "passed": true,
+      "durationMs": 642
+    },
+    {
+      "name": "real World Info scan respects keywords, disabled entries, unbound books and budget",
+      "passed": true,
+      "durationMs": 37
+    },
+    {
+      "name": "settings persist on disk and bindings survive page reload",
+      "passed": true,
+      "durationMs": 2838
+    },
+    {
+      "name": "switching persona isolates extras; switching chat retains persona scope",
+      "passed": true,
+      "durationMs": 682
+    },
+    {
+      "name": "search, primary changes, keyboard focus, count and mobile layout",
+      "passed": true,
+      "durationMs": 803
+    },
+    {
+      "name": "removing the primary promotes the next book and ordinary click opens its editor",
+      "passed": true,
+      "durationMs": 872
+    },
+    {
+      "name": "native long press opens an editable persona picker",
+      "passed": true,
+      "durationMs": 1085
+    },
+    {
+      "name": "a persona renamed while the picker is open updates its heading",
+      "passed": true,
+      "durationMs": 468
+    },
+    {
+      "name": "native getpersonabook and persona-update keep single-primary compatibility",
+      "passed": true,
+      "durationMs": 481
+    },
+    {
+      "name": "native persona duplication deep-copies additional lorebook bindings",
+      "passed": true,
+      "durationMs": 841
+    },
+    {
+      "name": "native persona backup, deletion and restore preserve additional books",
+      "passed": true,
+      "durationMs": 543
+    },
+    {
+      "name": "global and character overlap scan once with native source priority",
+      "passed": true,
+      "durationMs": 7
+    },
+    {
+      "name": "MultiChatLore coexistence deduplicates with chat priority in both listener orders",
+      "passed": true,
+      "durationMs": 151
+    },
+    {
+      "name": "disable restores native picker and reactivation installs one picker and listener",
+      "passed": true,
+      "durationMs": 357
+    },
+    {
+      "name": "an open picker becomes inert after the active persona changes",
+      "passed": true,
+      "durationMs": 657
+    },
+    {
+      "name": "pending scan does not inject extra books after extension disable",
+      "passed": true,
+      "durationMs": 12
+    },
+    {
+      "name": "pending scan does not inject old extras after a persona switch",
+      "passed": true,
+      "durationMs": 357
+    },
+    {
+      "name": "pending scan does not inject old extras after a chat switch",
+      "passed": true,
+      "durationMs": 234
+    },
+    {
+      "name": "pending scan does not inject extras from a replaced persona descriptor",
+      "passed": true,
+      "durationMs": 14
+    },
+    {
+      "name": "group chats use the active persona and remain isolated when persona changes",
+      "passed": true,
+      "durationMs": 381
+    },
+    {
+      "name": "missing extra stays bound and visible while valid lore continues scanning",
+      "passed": true,
+      "durationMs": 461
+    },
+    {
+      "name": "clear removes native primary and extras without changing another persona",
+      "passed": true,
+      "durationMs": 1116
+    }
+  ],
+  "errors": [],
+  "finished": "2026-11-17T01:25:35.487Z"
+}

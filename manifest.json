@@ -1,0 +1,14 @@
+{
+    "display_name": "Multiple Persona Lorebooks",
+    "loading_order": 10,
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Paradox",
+    "version": "1.0.0",
+    "minimum_client_version": "1.19.0",
+    "homePage": "https://github.com/xyzzy121/SillyTavern-MultiPersonaLore",
+    "hooks": {
+        "activate": "onActivate",
+        "disable": "onDisable"
+    }
+}
